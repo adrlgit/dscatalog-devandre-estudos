@@ -3,9 +3,12 @@ package com.devandre.dscatalog.services;
 import com.devandre.dscatalog.dto.CategoryDTO;
 import com.devandre.dscatalog.entities.Category;
 import com.devandre.dscatalog.repositories.CategoryRepository;
+import com.devandre.dscatalog.services.exceptions.DataBaseException;
 import com.devandre.dscatalog.services.exceptions.ResourceNotFoundException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -50,6 +53,18 @@ public class CategoryService {
         }
         catch (EntityNotFoundException e) {
             throw new ResourceNotFoundException("Category not found with id: " + id);
+        }
+    }
+
+    public void delete(Long id) {
+        try {
+            categoryRepository.deleteById(id);
+        }
+        catch (EmptyResultDataAccessException e){
+            throw new ResourceNotFoundException("Category not found with id: " + id);
+        }
+        catch (DataIntegrityViolationException e) {
+            throw new DataBaseException("Integrity violation");
         }
     }
 }
