@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="080efdb4-4f57-4fc3-811f-5b0b5745ad67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/devandre/dscatalog/services/exceptions/DataBaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/devandre/dscatalog/resource/CategoryResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/devandre/dscatalog/resource/CategoryResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/devandre/dscatalog/resource/exceptions/ResourceExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/devandre/dscatalog/resource/exceptions/ResourceExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/devandre/dscatalog/services/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/devandre/dscatalog/services/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-web/src/components/ButtonIcon/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-web/src/components/ButtonIcon/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-web/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-web/src/pages/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-web/src/pages/Home/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-web/src/pages/Home/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="080efdb4-4f57-4fc3-811f-5b0b5745ad67" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,24 +13,24 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2en2FJ5FaVwuF5w78kgDFFlusqb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "AtomSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AtomSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712525917267</updated>
       <workItem from="1712525919764" duration="3000" />
+      <workItem from="1712842618575" duration="22000" />
     </task>
     <servers />
   </component>
